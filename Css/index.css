@@ -1,0 +1,96 @@
+*{
+    font-family: HaasText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+#navbar{
+  display:flex;
+  justify-content: space-between;
+  margin:20px;
+  
+}
+#navbar>div:nth-child(1){
+    display:flex;
+    width:50%;
+
+}
+#navbar>div:nth-child(1)>div>img{
+    margin-top:5px;
+    width: 39px;
+    height: 32px;
+}
+
+#navbar>div:nth-child(1)>div:nth-child(1){
+    width:15%;
+    display: flex;
+    margin-right: 10px;
+}
+#navbar>div:nth-child(1)>div:nth-child(2){
+    width:70%;
+  
+    display:flex;
+    justify-content: space-evenly;
+}
+#name{
+    font-weight: bolder;
+}
+#contact{
+    padding:5px 10px;
+    border:2px solid #949494;
+     border-radius: 8px;
+     font-size: 1rem;
+}
+
+.signup{
+    padding:5px 10px;
+    background-color: 
+#0768f8;
+    border-radius: 8px;
+    color:white;
+    border:2px solid 
+#0768f8;
+    font-size:1rem;
+    
+}
+#signin{
+   border:none;
+   background-color: white;
+   color:
+#0768f8;
+font-size: 1rem;
+}
+
+#hero{
+    display:flex;
+    width:100%;
+    background-color:
+#ecf6fc;
+     
+    
+    justify-content: space-around;
+}
+#hero>div:nth-child(1){
+    width:50%;
+    padding:100px 0 100px 100px;
+}
+#hero>div:nth-child(1)>h1{
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+#hero>div:nth-child(1)>p{
+    font-size:20px;
+    line-height: 1.35;
+    font-weight: 500;
+}
+#hero>div:nth-child(2){
+    width:50%;
+    
+    padding:100px 100px 100px 0;
+}
+#hero video{
+    width:100%;
+}
+
+#logosection{
+  display: flex;
+}
