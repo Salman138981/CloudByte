@@ -16,7 +16,7 @@ form.addEventListener("submit",(event) =>{
             
         }else{
             window.location.href="../html/home.html"
-            alert("welcome to Home");
+            alert("Successfully Login");
         }
     })
     
