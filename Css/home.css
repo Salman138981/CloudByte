@@ -65,5 +65,127 @@ display: flex;
 }
 
 hr{
-    border:1px solid #999999;
+    border:1px solid lightgray;
+    margin:0;
+}
+
+#container{
+    display: flex;
+}
+#container>div:nth-child(1){
+    width:20%;
+    height:500px;
+    padding-left:10px;
+  
+}
+#container>div:nth-child(2){
+    width:80%;
+    height:740px;
+    border-left:1px solid lightgray
+
+    
+}
+#container>div:nth-child(1)>h3,#container>div:nth-child(1)>p{
+    cursor: pointer;
+    color:gray;
+    
+    
+}
+#container>div:nth-child(1)>h3:hover,#container>div:nth-child(1)>p:hover{
+    background-color: lightgray;
+}
+#para{
+    margin-bottom:250px;
+}
+#container>div:nth-child(1)>hr{
+    border:1px solid lightgray;
+    margin:0 10px;
+}
+#container>div:nth-child(1)>button{
+    width:90%;
+    color:white;
+    background-color:
+    #2d7ff9 ;
+    padding:10px;
+    border:none;
+    margin:10px;
+    cursor: pointer;
+}
+#container>div:nth-child(1)>button:hover{
+    background-color: #6996da;
+}
+
+#mainbody{
+    background-color: 
+    #f9fafb;
+}
+
+#mainnav{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+#mainnav>div:nth-child(1){
+    display: flex;
+    
+}
+#mainnav>div:nth-child(1)>p{
+   margin-top:33px;
+   cursor: pointer;
+   background-color: 
+   #ecedee;
+   padding:2px;
+   border-radius: 8px;
+}
+#mainnav>div:nth-child(1)>svg{
+    margin-top:32px;
+    cursor: pointer;
+}
+#mainnav span{
+    color: #2d7ff9
+}
+
+#mainnav>div:nth-child(2){
+    margin-top:30px;
+    
+}
+#mainnav button{
+    padding:10px;
+    font-weight: bold;
+    border:1px solid lightgray;
+    cursor:pointer;
+    
+}
+
+button:hover{
+    background-color: white;
+}
+
+#select{
+    margin:50px;
+}
+#select>select{
+    border:none;
+    color:#999999
+}
+
+#create{
+    width: 40%;
+    margin:auto;
+    text-align: center;
+    color:darkgray;
+}
+#create button{
+
+    color:white;
+    padding:5px;
+    margin:10px;
+    background-color: #2d7ff9;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#create button:hover{
+    background-color: #6996da;
 }
