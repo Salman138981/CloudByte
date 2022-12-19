@@ -7,14 +7,16 @@
 }
 #navbar{
   display:flex;
-  justify-content: space-between;
+  
   margin:20px;
   margin-bottom: 10px;
   
+  justify-content: space-between;
 }
 #navbar>div:nth-child(1){
     display:flex;
     width:50%;
+    
 
 }
 #navbar>div:nth-child(1)>div>img{

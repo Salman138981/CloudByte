@@ -17,6 +17,7 @@ form.addEventListener("submit",(event) =>{
         }else{
             window.location.href="../html/home.html"
             alert("Successfully Login");
+            localStorage.setItem("username",JSON.stringify(el.name))
         }
     })
     
